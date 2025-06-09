@@ -1,0 +1,35 @@
+a{
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: wheat;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.8s all ease-in-out;
+}
+/* using psuedo class :link for defult state */
+a:link{
+    color: brown;
+}
+/* psuedo class :visited */
+a:visited{
+    color: yellowgreen;
+}
+a:hover{
+    color: blueviolet;
+    font-size: 20px;
+    border-radius: 30px;
+}
+a:active{
+    color: chocolate;
+    border-radius: 0px;
+}
+#rot{
+    transition: 3s all linear;
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}
+#rot:hover{
+    transform: rotate(360deg);
+}
